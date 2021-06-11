@@ -1,2 +1,2 @@
-# beer-gatsby
-brewery
+# About
+beer gatsby (for DO apps)
