@@ -20,22 +20,12 @@ const BreweryCard = ({brewery}) => (
         <dl>
             <dt>Address</dt>
             <dd>
-                <a href={mapUrl(brewery)} target="_blank" rel="noopener noreferrer">{brewery.address}</a>
+                <a href={mapUrl(brewery)} target="_blank" rel="noopener noreferrer">{brewery.address}<span className="visually-hidden"> (opens in new tab)</span></a>
             </dd>
             {brewery.taproom && (
                 <>
                     <dt>Taproom</dt>
                     <dd>{brewery.taproom}</dd>
-                </>
-            )}
-            {brewery.phones && (
-                <>
-                    <dt>Phone</dt>
-                    <dd>
-                        {brewery.phones.map(phone => (
-                            <a key={phone} href={`tel:${phone.replace(/\s/g, ``)}`}>{phone}</a>
-                        ))}
-                    </dd>
                 </>
             )}
             {brewery.website && (
@@ -44,6 +34,7 @@ const BreweryCard = ({brewery}) => (
                     <dd>
                         <a href={brewery.website} target="_blank" rel="noopener noreferrer">
                             {displayUrl(brewery.website)}
+                            <span className="visually-hidden"> (opens in new tab)</span>
                         </a>
                     </dd>
                 </>
@@ -56,9 +47,13 @@ const BreweryList = ({breweries}) => {
     const [region, setRegion] = useState(ALL);
     const regions = [...new Set(breweries.map(b => b.region))].sort();
     const shown = regions.filter(r => region === ALL || r === region);
+    const shownCount = breweries.filter(b => shown.includes(b.region)).length;
 
     return (
-        <section>
+        <section aria-label="Brewery list">
+            <p className="visually-hidden" role="status">
+                {shownCount} breweries shown{region === ALL ? `` : ` in ${region}`}
+            </p>
             <div className="region-filter" role="group" aria-label="Filter by region">
                 {[ALL, ...regions].map(r => (
                     <button key={r} type="button" aria-pressed={r === region} onClick={() => setRegion(r)}>

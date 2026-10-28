@@ -23,7 +23,7 @@ const Hero = () => (
             <h1>Latvian <span className="accent">Craft Breweries</span></h1>
             <p>
                 The small and independent breweries of Latvia gathered in one place,
-                with addresses, phones and websites.
+                with addresses and websites.
             </p>
             <ul className="hero-stats">
                 <li><strong>{breweries.length}</strong><span>Breweries</span></li>
@@ -43,14 +43,34 @@ const IndexPage = () => (
                     <h2>Find a <span className="accent">brewery</span></h2>
                 </div>
                 <BreweryList breweries={breweries}/>
-                <p className="source-note">
-                    Brewery locations based on <a href="https://muca.didnt.work/">MUCA</a>, the map of Latvian makers.
-                </p>
             </div>
         </section>
     </Layout>
 );
 
-export const Head = () => <SEO title="Latvian craft breweries"/>;
+const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Latvian craft breweries",
+    numberOfItems: breweries.length,
+    itemListElement: breweries.map((b, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+            "@type": "Brewery",
+            name: b.name,
+            address: {"@type": "PostalAddress", streetAddress: b.address, addressLocality: b.city, addressCountry: "LV"},
+            geo: {"@type": "GeoCoordinates", latitude: b.lat, longitude: b.lng},
+            ...(b.website && {url: b.website}),
+            ...(b.founded && {foundingDate: String(b.founded)}),
+        },
+    })),
+};
+
+export const Head = () => (
+    <SEO title="Latvian craft breweries">
+        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+    </SEO>
+);
 
 export default IndexPage

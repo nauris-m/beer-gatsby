@@ -13,19 +13,19 @@
   padding: 0.55rem 1.4rem;
   border: 2px solid var(--gold);
   border-radius: 999px;
-  background: transparent;
+  background: var(--cream);
   color: var(--ink);
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
 }
 
 .region-filter button:hover {
-  background: rgba(186, 159, 93, 0.15);
+  background: #efe6d2;
 }
 
 .region-filter button[aria-pressed="true"] {
   background: var(--gold);
-  color: #fff;
+  color: var(--ink);
 }
 
 .region-title {
@@ -68,6 +68,15 @@
 
 .brewery:hover {
   transform: translateY(-3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brewery:hover {
+    transform: none;
+  }
+}
+
+.brewery:hover {
   box-shadow: 0 2px 4px rgba(13, 13, 12, 0.05), 0 14px 32px rgba(13, 13, 12, 0.1);
 }
 
@@ -115,11 +124,4 @@
 
 .brewery dd a:hover {
   color: var(--green);
-}
-
-.source-note {
-  margin: 0;
-  text-align: center;
-  font-size: 0.85rem;
-  color: var(--muted);
 }

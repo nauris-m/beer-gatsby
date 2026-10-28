@@ -15,6 +15,10 @@ const NotFoundPage = () => (
     </Layout>
 );
 
-export const Head = () => <SEO title="Page not found"/>;
+export const Head = () => (
+    <SEO title="Page not found" pathname="/404/">
+        <meta name="robots" content="noindex"/>
+    </SEO>
+);
 
 export default NotFoundPage

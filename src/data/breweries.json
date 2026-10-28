@@ -2,7 +2,7 @@
   {
     "id": "aizputes-muizas-alus",
     "name": "Aizputes muižas alus darītava",
-    "address": "Liepājas iela 8A, Aizpute, Dienvidkurzemes novads, LV-3456",
+    "address": "Liepājas iela 8A, Aizpute, Dienvidkurzemes novads",
     "city": "Aizpute",
     "region": "Kurzeme",
     "lat": 56.72158,
@@ -13,7 +13,7 @@
   {
     "id": "bartas-alus",
     "name": "Bārtas alus",
-    "address": "\"Apinīši\", Bārta, Bārtas pagasts, Dienvidkurzemes novads, LV-3482",
+    "address": "\"Apinīši\", Bārta, Bārtas pagasts, Dienvidkurzemes novads",
     "city": "Bārta",
     "region": "Kurzeme",
     "lat": 56.35161,
@@ -24,7 +24,7 @@
   {
     "id": "duna-brewery",
     "name": "DUNA Brewery",
-    "address": "Kaļķu iela 14, Kuldīga, Kuldīgas novads, LV-3301",
+    "address": "Kaļķu iela 14, Kuldīga, Kuldīgas novads",
     "city": "Kuldīga",
     "region": "Kurzeme",
     "lat": 56.97249,
@@ -35,21 +35,18 @@
   {
     "id": "jaunpils-alus",
     "name": "Jaunpils alus",
-    "address": "Šķūnis Baltais Centrā, Jaunpils, Jaunpils pagasts, Tukuma novads, LV-3145",
+    "address": "Šķūnis Baltais Centrā, Jaunpils, Jaunpils pagasts, Tukuma novads",
     "city": "Jaunpils",
     "region": "Kurzeme",
     "lat": 56.73002,
     "lng": 23.01071,
     "founded": 2017,
-    "website": "https://www.jaunpilsalus.lv/",
-    "phones": [
-      "+371 26328281"
-    ]
+    "website": "https://www.jaunpilsalus.lv/"
   },
   {
     "id": "mazjuras-bruzis",
     "name": "Mazjūras Brūzis",
-    "address": "Jūras iela 73, Engure, Engures pagasts, Tukuma novads, LV-3113",
+    "address": "Jūras iela 73, Engure, Engures pagasts, Tukuma novads",
     "city": "Engure",
     "region": "Kurzeme",
     "lat": 57.15891,
@@ -60,7 +57,7 @@
   {
     "id": "puta-brewery",
     "name": "Puta Brewery",
-    "address": "Vecā ostmala 53, Liepāja, LV-3401",
+    "address": "Vecā ostmala 53, Liepāja",
     "city": "Liepāja",
     "region": "Kurzeme",
     "lat": 56.51439,
@@ -71,35 +68,29 @@
   {
     "id": "saldalus",
     "name": "Saldalus",
-    "address": "Striķu iela 65, Saldus, LV-3801",
+    "address": "Striķu iela 65, Saldus",
     "city": "Saldus",
     "region": "Kurzeme",
     "lat": 56.65258755421824,
     "lng": 22.49825109902016,
     "founded": 2012,
-    "website": "https://saldalus.lv/",
-    "phones": [
-      "+371 26538605"
-    ]
+    "website": "https://saldalus.lv/"
   },
   {
     "id": "uzavas-alus",
     "name": "Užavas alus",
-    "address": "\"Alutiņi\", Užavas pagasts, Ventspils novads, LV-3627",
+    "address": "\"Alutiņi\", Užavas pagasts, Ventspils novads",
     "city": "Užava",
     "region": "Kurzeme",
     "lat": 57.1981,
     "lng": 21.442,
     "founded": 1994,
-    "website": "https://uzavasalus.eu",
-    "phones": [
-      "+371 63630595"
-    ]
+    "website": "https://uzavasalus.eu"
   },
   {
     "id": "vecais-taizels",
     "name": "Vecais Taizel's",
-    "address": "Pasta iela 1, Liepāja, LV-3401",
+    "address": "Pasta iela 1, Liepāja",
     "city": "Liepāja",
     "region": "Kurzeme",
     "lat": 56.51068,
@@ -110,7 +101,7 @@
   {
     "id": "augsdaugavas-alus",
     "name": "Augšdaugavas alus",
-    "address": "Vecpils iela 13, Daugavpils, LV-5414",
+    "address": "Vecpils iela 13, Daugavpils",
     "city": "Daugavpils",
     "region": "Latgale",
     "lat": 55.86685,
@@ -121,7 +112,7 @@
   {
     "id": "bruzis-murza",
     "name": "Brūzis Murza",
-    "address": "\"Zaļmuiža\", Murāni, Andrupenes pagasts, Krāslavas novads, LV-5687",
+    "address": "\"Zaļmuiža\", Murāni, Andrupenes pagasts, Krāslavas novads",
     "city": "Murāni",
     "region": "Latgale",
     "lat": 56.12311,
@@ -132,7 +123,7 @@
   {
     "id": "kolnasata",
     "name": "Kolnasāta",
-    "address": "Stacijas iela 4, Bērzpils, Bērzpils pagasts, Balvu novads, LV-4576",
+    "address": "Stacijas iela 4, Bērzpils, Bērzpils pagasts, Balvu novads",
     "city": "Bērzpils",
     "region": "Latgale",
     "lat": 56.8546,
@@ -143,7 +134,7 @@
   {
     "id": "kraslavas-avots",
     "name": "Krāslavas avots",
-    "address": "Vītolu iela 4, Krāslava, Krāslavas novads, LV-5601",
+    "address": "Vītolu iela 4, Krāslava, Krāslavas novads",
     "city": "Krāslava",
     "region": "Latgale",
     "lat": 55.90597,
@@ -154,7 +145,7 @@
   {
     "id": "latgales-alus",
     "name": "Latgales Alus",
-    "address": "Dzirnavu iela 22, Daugavpils, LV-5401",
+    "address": "Dzirnavu iela 22, Daugavpils",
     "city": "Daugavpils",
     "region": "Latgale",
     "lat": 55.86418,
@@ -165,7 +156,7 @@
   {
     "id": "perkondelu-alus",
     "name": "Pērkondēlu alus",
-    "address": "Vīraksnes iela 1, Atašiene, Atašienes pagasts, Jēkabpils novads, LV-5211",
+    "address": "Vīraksnes iela 1, Atašiene, Atašienes pagasts, Jēkabpils novads",
     "city": "Atašiene",
     "region": "Latgale",
     "lat": 56.5438067,
@@ -176,7 +167,7 @@
   {
     "id": "rezeknis-bryuvers",
     "name": "Rēzeknis Bryuvers",
-    "address": "Atbrīvošanas aleja 162b, Rēzekne, LV-4604",
+    "address": "Atbrīvošanas aleja 162b, Rēzekne",
     "city": "Rēzekne",
     "region": "Latgale",
     "lat": 56.5006,
@@ -187,7 +178,7 @@
   {
     "id": "zs-naglinas",
     "name": "ZS Nagliņas",
-    "address": "\"Nagliņas\", Vaicuļeva, Indras pagasts, Krāslavas novads, LV-5664",
+    "address": "\"Nagliņas\", Vaicuļeva, Indras pagasts, Krāslavas novads",
     "city": "Indra",
     "region": "Latgale",
     "lat": 55.85332,
@@ -198,21 +189,18 @@
   {
     "id": "alus-darbnica-teika",
     "name": "Alus darbnīca TEIKA",
-    "address": "Brīvības gatve 348, Rīga, LV-1006",
+    "address": "Brīvības gatve 348, Rīga",
     "city": "Rīga",
     "region": "Rīga",
     "lat": 56.98145,
     "lng": 24.19437,
     "founded": 2015,
-    "website": "https://www.alusteika.lv/",
-    "phones": [
-      "+371 25955988"
-    ]
+    "website": "https://www.alusteika.lv/"
   },
   {
     "id": "prusaks",
     "name": "Alus darīšanas apvienība Prusaks",
-    "address": "Tirgoņu iela 23, Majori, Jūrmala, LV-2015",
+    "address": "Tirgoņu iela 23, Majori, Jūrmala",
     "city": "Jūrmala",
     "region": "Rīga",
     "lat": 56.9723,
@@ -223,21 +211,18 @@
   {
     "id": "alus-rume-trofeja",
     "name": "Alus Rūme Trofeja",
-    "address": "Avotu iela 74a, Rīga, LV-1009",
+    "address": "Avotu iela 74a, Rīga",
     "city": "Rīga",
     "region": "Rīga",
     "lat": 56.95312,
     "lng": 24.1453,
     "founded": 2020,
-    "website": "https://trofeja.lv/",
-    "phones": [
-      "+371 22062877"
-    ]
+    "website": "https://trofeja.lv/"
   },
   {
     "id": "bruzis-manufaktura",
     "name": "Brūzis Manufaktūra",
-    "address": "Brīvības gatve 401C, Rīga, LV-1024",
+    "address": "Brīvības gatve 401C, Rīga",
     "city": "Rīga",
     "region": "Rīga",
     "lat": 56.98982,
@@ -248,7 +233,7 @@
   {
     "id": "ilgezeem",
     "name": "Iļģuciema Alus / ILGEZEEM",
-    "address": "Daugavgrīvas iela 82, Rīga, LV-1007",
+    "address": "Daugavgrīvas iela 82, Rīga",
     "city": "Rīga",
     "region": "Rīga",
     "lat": 56.95994,
@@ -270,7 +255,7 @@
   {
     "id": "konkordijas-alus",
     "name": "Konkordijas alus darītava",
-    "address": "Slokas 61b, Jurmala, Latvia, LV-2015",
+    "address": "Slokas 61b, Jurmala, Latvia",
     "city": "Jūrmala",
     "region": "Rīga",
     "lat": 56.9695473,
@@ -281,7 +266,7 @@
   {
     "id": "lido-alus-daritava",
     "name": "LIDO alus darītava",
-    "address": "Krasta iela 76, Rīga, LV-1019",
+    "address": "Krasta iela 76, Rīga",
     "city": "Rīga",
     "region": "Rīga",
     "lat": 56.92718,
@@ -292,23 +277,19 @@
   {
     "id": "nurme-alus",
     "name": "Nurme alus darītava",
-    "address": "Vagonu iela 21, Rīga, LV-1009",
+    "address": "Vagonu iela 21, Rīga",
     "city": "Rīga",
     "region": "Rīga",
     "lat": 56.9501,
     "lng": 24.1506,
     "founded": 2016,
     "website": "https://nurmebeer.com",
-    "phones": [
-      "+371 26182850",
-      "+371 26253494"
-    ],
-    "taproom": "Avotu iela 53, Rīga, LV-1009"
+    "taproom": "Avotu iela 53, Rīga"
   },
   {
     "id": "stargorod-riga",
     "name": "Stargorod Rīga",
-    "address": "Republikas laukums 1, Rīga, LV-1010",
+    "address": "Republikas laukums 1, Rīga",
     "city": "Rīga",
     "region": "Rīga",
     "lat": 56.95324,
@@ -319,21 +300,18 @@
   {
     "id": "adazu-alus",
     "name": "Ādažu alus",
-    "address": "Pirmā iela 38A, Ādaži, Ādažu novads, LV-2164",
+    "address": "Pirmā iela 38A, Ādaži, Ādažu novads",
     "city": "Ādaži",
     "region": "Vidzeme",
     "lat": 57.08052,
     "lng": 24.32222,
     "founded": 2015,
-    "website": "https://adazualus.lv/",
-    "phones": [
-      "+371 29354354"
-    ]
+    "website": "https://adazualus.lv/"
   },
   {
     "id": "aluksnes-alus",
     "name": "Alūksnes alus",
-    "address": "Tālavas iela 5, Alūksne, LV-4301",
+    "address": "Tālavas iela 5, Alūksne",
     "city": "Alūksne",
     "region": "Vidzeme",
     "lat": 57.41259,
@@ -344,7 +322,7 @@
   {
     "id": "alus-bralis",
     "name": "Alus Brālis",
-    "address": "\"Ojāri\", Griķi, Inčukalna pagasts, Siguldas novads, LV-2136",
+    "address": "\"Ojāri\", Griķi, Inčukalna pagasts, Siguldas novads",
     "city": "Griķi",
     "region": "Vidzeme",
     "lat": 57.0909,
@@ -355,21 +333,18 @@
   {
     "id": "arpus",
     "name": "Ārpus Brewing Co.",
-    "address": "\"Jauntrenči\", Eimuri, Ādažu pagasts, Ādažu novads, LV-2164",
+    "address": "\"Jauntrenči\", Eimuri, Ādažu pagasts, Ādažu novads",
     "city": "Eimuri",
     "region": "Vidzeme",
     "lat": 57.08778,
     "lng": 24.2875,
     "founded": 2017,
-    "website": "https://arpusbrewing.co",
-    "phones": [
-      "+371 26633295"
-    ]
+    "website": "https://arpusbrewing.co"
   },
   {
     "id": "brengulu-alus",
     "name": "Brenguļu alus darītava",
-    "address": "\"Abula\", Brenguļi, Brenguļu pagasts, Valmieras novads, LV-4245",
+    "address": "\"Abula\", Brenguļi, Brenguļu pagasts, Valmieras novads",
     "city": "Brenguļi",
     "region": "Vidzeme",
     "lat": 57.548485,
@@ -380,7 +355,7 @@
   {
     "id": "bursh",
     "name": "BURSH",
-    "address": "\"Burši\", Aiviekstes pagasts, Aizkraukles novads, LV-5120",
+    "address": "\"Burši\", Aiviekstes pagasts, Aizkraukles novads",
     "city": "Burši",
     "region": "Vidzeme",
     "lat": 56.62616,
@@ -391,21 +366,18 @@
   {
     "id": "cesvaines-alus",
     "name": "Cesvaines alus darītava",
-    "address": "Rūpnīcas iela 1, Cesvaine, Madonas novads, LV-4871",
+    "address": "Rūpnīcas iela 1, Cesvaine, Madonas novads",
     "city": "Cesvaine",
     "region": "Vidzeme",
     "lat": 56.966838,
     "lng": 26.309494,
     "founded": 2016,
-    "website": "https://www.cesvainesalus.lv",
-    "phones": [
-      "+371 28352847"
-    ]
+    "website": "https://www.cesvainesalus.lv"
   },
   {
     "id": "indiejanis",
     "name": "IndieJānis",
-    "address": "\"Kalti\", Upespils, Suntažu pagasts, Ogres novads, LV-5060",
+    "address": "\"Kalti\", Upespils, Suntažu pagasts, Ogres novads",
     "city": "Upespils",
     "region": "Vidzeme",
     "lat": 56.932233,
@@ -416,22 +388,19 @@
   {
     "id": "labietis",
     "name": "Labietis",
-    "address": "Eimuri, Ādažu pagasts, Ādažu novads, LV-2164",
+    "address": "Eimuri, Ādažu pagasts, Ādažu novads",
     "city": "Eimuri",
     "region": "Vidzeme",
     "lat": 57.085,
     "lng": 24.291,
     "founded": 2013,
     "website": "https://labietis.lv",
-    "phones": [
-      "+371 25655958"
-    ],
-    "taproom": "Aristīda Briāna iela 9a-2, Rīga, LV-1001"
+    "taproom": "Aristīda Briāna iela 9a-2, Rīga"
   },
   {
     "id": "lembuzu-bruzis",
     "name": "Lembužu brūzis",
-    "address": "\"Lemizars\", Lembuži, Liepupes pagasts, Limbažu novads, LV-4023",
+    "address": "\"Lemizars\", Lembuži, Liepupes pagasts, Limbažu novads",
     "city": "Lembuži",
     "region": "Vidzeme",
     "lat": 57.47297,
@@ -442,49 +411,40 @@
   {
     "id": "madonas-alus",
     "name": "Madonas alus",
-    "address": "\"Bodnieki\", Praulienas pagasts, Madonas novads, LV-4825",
+    "address": "\"Bodnieki\", Praulienas pagasts, Madonas novads",
     "city": "Bodnieki",
     "region": "Vidzeme",
     "lat": 56.82722,
     "lng": 26.363285,
     "founded": 1916,
-    "website": "https://madonasalus.com",
-    "phones": [
-      "+371 27050765"
-    ]
+    "website": "https://madonasalus.com"
   },
   {
     "id": "malduguns",
     "name": "Malduguns alus darītava",
-    "address": "Parka iela 2A, Rauna, Raunas pagasts, Smiltenes novads, LV-4131",
+    "address": "Parka iela 2A, Rauna, Raunas pagasts, Smiltenes novads",
     "city": "Rauna",
     "region": "Vidzeme",
     "lat": 57.330019,
     "lng": 25.618179,
     "founded": 2013,
-    "website": "https://www.malduguns.lv",
-    "phones": [
-      "+371 25541552"
-    ]
+    "website": "https://www.malduguns.lv"
   },
   {
     "id": "piebalgas-alus",
     "name": "Piebalgas alus",
-    "address": "Gaujas iela 2, Jaunpiebalga, Cēsu novads, LV-4125",
+    "address": "Gaujas iela 2, Jaunpiebalga, Cēsu novads",
     "city": "Jaunpiebalga",
     "region": "Vidzeme",
     "lat": 57.181833,
     "lng": 26.04485,
     "founded": 1989,
-    "website": "https://piebalgasalus.lv",
-    "phones": [
-      "+371 28011211"
-    ]
+    "website": "https://piebalgasalus.lv"
   },
   {
     "id": "raiskuma-labumu-daritava",
     "name": "Raiskuma labumu darītava",
-    "address": "Ozolu 3, Raiskums, Raiskuma pagasts, Cēsu novads, LV-4146",
+    "address": "Ozolu 3, Raiskums, Raiskuma pagasts, Cēsu novads",
     "city": "Raiskums",
     "region": "Vidzeme",
     "lat": 57.31252,
@@ -495,7 +455,7 @@
   {
     "id": "talavas-kenina-alus",
     "name": "Tālavas ķēniņa alus",
-    "address": "\"Kāmieši\", Lizuma pagasts, Gulbenes novads, LV-4425",
+    "address": "\"Kāmieši\", Lizuma pagasts, Gulbenes novads",
     "city": "Lizums",
     "region": "Vidzeme",
     "lat": 57.1775,
@@ -506,22 +466,19 @@
   {
     "id": "valmiermuizas-alus",
     "name": "Valmiermuižas alus",
-    "address": "Dzirnavu iela 2, Valmiermuiža, Valmieras pagasts, Valmieras novads, LV-4219",
+    "address": "Dzirnavu iela 2, Valmiermuiža, Valmieras pagasts, Valmieras novads",
     "city": "Valmiermuiža",
     "region": "Vidzeme",
     "lat": 57.555858,
     "lng": 25.431196,
     "founded": 1764,
     "website": "https://valmiermuiza.lv",
-    "phones": [
-      "+371 28656111"
-    ],
     "taproom": "Aristida Briāna iela 9a, Rīga"
   },
   {
     "id": "agrofirma-tervete",
     "name": "Agrofirma Tērvete (Tērvetes alus)",
-    "address": "\"Tišas\", Kroņauce, Tērvetes pagasts, Dobeles novads, LV-3730",
+    "address": "\"Tišas\", Kroņauce, Tērvetes pagasts, Dobeles novads",
     "city": "Kroņauce",
     "region": "Zemgale",
     "lat": 56.516731,
@@ -532,7 +489,7 @@
   {
     "id": "migla",
     "name": "Alus darītava MIGLA",
-    "address": "\"Annas\", Uzvaras Līdums, Olaines pagasts, Olaines novads, LV-2127",
+    "address": "\"Annas\", Uzvaras Līdums, Olaines pagasts, Olaines novads",
     "city": "Uzvaras Līdums",
     "region": "Zemgale",
     "lat": 56.76939,
@@ -543,7 +500,7 @@
   {
     "id": "bauskas-alus",
     "name": "Bauskas alus",
-    "address": "Bērzkalnu iela 77, Bauska, Bauskas novads, LV-3901",
+    "address": "Bērzkalnu iela 77, Bauska, Bauskas novads",
     "city": "Bauska",
     "region": "Zemgale",
     "lat": 56.3976,
@@ -554,7 +511,7 @@
   {
     "id": "fisera-alus",
     "name": "Fišera alus darītava",
-    "address": "Brīvības iela 33, Viesīte, Jēkabpils novads, LV-5237",
+    "address": "Brīvības iela 33, Viesīte, Jēkabpils novads",
     "city": "Viesīte",
     "region": "Zemgale",
     "lat": 56.34489,
@@ -565,7 +522,7 @@
   {
     "id": "hat-brewery",
     "name": "HAT Brewery",
-    "address": "\"Lāmiņas\", Katlakalns, Ķekavas pagasts, Ķekavas novads, LV-2111",
+    "address": "\"Lāmiņas\", Katlakalns, Ķekavas pagasts, Ķekavas novads",
     "city": "Katlakalns",
     "region": "Zemgale",
     "lat": 56.90858,
@@ -576,7 +533,7 @@
   {
     "id": "hopalaa",
     "name": "Hopalaa",
-    "address": "Industriālais parks, Vītoliņi, Valgundes pagasts, Jelgavas novads, LV-3017",
+    "address": "Industriālais parks, Vītoliņi, Valgundes pagasts, Jelgavas novads",
     "city": "Vītoliņi",
     "region": "Zemgale",
     "lat": 56.7015184,
@@ -587,7 +544,7 @@
   {
     "id": "hypnos-brewery",
     "name": "Hypnos Brewery",
-    "address": "Industriālais parks, Vītoliņi, Valgundes pagasts, Jelgavas novads, LV-3017",
+    "address": "Industriālais parks, Vītoliņi, Valgundes pagasts, Jelgavas novads",
     "city": "Vītoliņi",
     "region": "Zemgale",
     "lat": 56.7019,
@@ -598,7 +555,7 @@
   {
     "id": "jaunbriezu-alus",
     "name": "Jaunbriežu alus",
-    "address": "\"Anšītes\", Jaunbērzes pagasts, Dobeles novads, LV-3717",
+    "address": "\"Anšītes\", Jaunbērzes pagasts, Dobeles novads",
     "city": "Jaunbērze",
     "region": "Zemgale",
     "lat": 56.71144,
@@ -609,7 +566,7 @@
   {
     "id": "lodina-alus",
     "name": "Lodiņa alus darītava",
-    "address": "Rīgas iela 39, Bauska, LV-3901",
+    "address": "Rīgas iela 39, Bauska",
     "city": "Bauska",
     "region": "Zemgale",
     "lat": 56.411407,
@@ -632,7 +589,7 @@
   {
     "id": "rundales-udensdzirnavas",
     "name": "Rundāles ūdensdzirnavas",
-    "address": "Pilsrundāle, Rundāles pagasts, Bauskas novads, LV-3921",
+    "address": "Pilsrundāle, Rundāles pagasts, Bauskas novads",
     "city": "Pilsrundāle",
     "region": "Zemgale",
     "lat": 56.42242,
@@ -643,31 +600,23 @@
   {
     "id": "viedi-alus",
     "name": "VIEDI alus darītava",
-    "address": "Cukura iela 21, Jelgava, LV-3002",
+    "address": "Cukura iela 21, Jelgava",
     "city": "Jelgava",
     "region": "Zemgale",
     "lat": 56.653225,
     "lng": 23.747116,
     "founded": 2015,
-    "website": "https://www.viedalus.lv",
-    "phones": [
-      "+371 20777767",
-      "+371 20247777"
-    ]
+    "website": "https://www.viedalus.lv"
   },
   {
     "id": "zoltners",
     "name": "Zoltners alus darītava",
-    "address": "\"Zoltners\", Kroņauce, Tērvetes pagasts, Dobeles novads, LV-3730",
+    "address": "\"Zoltners\", Kroņauce, Tērvetes pagasts, Dobeles novads",
     "city": "Kroņauce",
     "region": "Zemgale",
     "lat": 56.497601,
     "lng": 23.306069,
     "founded": 2015,
-    "website": "https://zoltners.lv/lv/alus-daritava/",
-    "phones": [
-      "+371 27331108",
-      "+371 27331109"
-    ]
+    "website": "https://zoltners.lv/lv/alus-daritava/"
   }
 ]

@@ -1,10 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `brewery`,
-    description: `Directory of Latvia's small and craft breweries, with addresses, phones and websites.`,
+    title: `brewery.lv`,
+    description: `Directory of Latvia's small and craft breweries, with addresses and websites.`,
+    siteUrl: `https://brewery.lv`,
+    image: `/og-image.jpg`,
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -2,13 +2,17 @@ import {Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({siteTitle = ``, overHero = false}) => (
+export const Brand = () => (
+    <Link to="/" className="brand">
+        brewery<span>.lv</span>
+    </Link>
+);
+
+const Header = ({overHero = false}) => (
     <header className={`site-header${overHero ? ` over-hero` : ``}`}>
         <div className="wrap">
-            <Link to="/" className="brand">
-                {siteTitle}<span>.lv</span>
-            </Link>
-            <nav className="site-nav">
+            <Brand/>
+            <nav className="site-nav" aria-label="Main">
                 <Link to="/">Breweries</Link>
             </nav>
         </div>
@@ -16,7 +20,6 @@ const Header = ({siteTitle = ``, overHero = false}) => (
 );
 
 Header.propTypes = {
-    siteTitle: PropTypes.string,
     overHero: PropTypes.bool,
 };
 

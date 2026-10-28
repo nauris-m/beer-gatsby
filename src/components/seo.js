@@ -8,7 +8,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import {graphql, useStaticQuery} from "gatsby"
 
-function SEO({description = ``, lang = `en`, title}) {
+function SEO({description = ``, lang = `en`, pathname = `/`, title, children}) {
     const {site} = useStaticQuery(
         graphql`
       query {
@@ -16,28 +16,37 @@ function SEO({description = ``, lang = `en`, title}) {
           siteMetadata {
             title
             description
+            siteUrl
+            image
           }
         }
       }
     `
     );
 
+    const {siteUrl} = site.siteMetadata;
     const metaDescription = description || site.siteMetadata.description;
+    const fullTitle = `${title} | ${site.siteMetadata.title}`;
+    const url = `${siteUrl}${pathname}`;
+    const image = `${siteUrl}${site.siteMetadata.image}`;
 
     return (
         <>
             <html lang={lang}/>
-            <title>{`${title} | ${site.siteMetadata.title}`}</title>
+            <title>{fullTitle}</title>
             <meta name="description" content={metaDescription}/>
-            <meta property="og:title" content={title}/>
-            <meta property="og:description" content={metaDescription}/>
+            <link rel="canonical" href={url}/>
             <meta property="og:type" content="website"/>
-            <link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
-            <link
-                rel="stylesheet"
-                href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Mrs+Saint+Delafield&family=Mulish:wght@400;500;700&display=swap"
-            />
+            <meta property="og:site_name" content={site.siteMetadata.title}/>
+            <meta property="og:title" content={fullTitle}/>
+            <meta property="og:description" content={metaDescription}/>
+            <meta property="og:url" content={url}/>
+            <meta property="og:image" content={image}/>
+            <meta property="og:image:width" content="1200"/>
+            <meta property="og:image:height" content="630"/>
+            <meta name="twitter:card" content="summary_large_image"/>
+            <meta name="theme-color" content="#0d0d0c"/>
+            {children}
         </>
     )
 }
@@ -45,7 +54,9 @@ function SEO({description = ``, lang = `en`, title}) {
 SEO.propTypes = {
     description: PropTypes.string,
     lang: PropTypes.string,
+    pathname: PropTypes.string,
     title: PropTypes.string.isRequired,
+    children: PropTypes.node,
 };
 
 export default SEO
