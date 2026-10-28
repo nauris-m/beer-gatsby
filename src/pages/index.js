@@ -7,7 +7,6 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Home"/>
         <p>welcome to brewery.lv</p>
         <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>
             <Image/>
@@ -16,5 +15,7 @@ const IndexPage = () => (
         <Link to="/contacts/">Contacts</Link> <br/>
     </Layout>
 );
+
+export const Head = () => <SEO title="Home"/>;
 
 export default IndexPage
