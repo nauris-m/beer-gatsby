@@ -1,4 +1,4 @@
-# brewery.lv
+# Latvian Craft Breweries
 
 A directory of Latvia's small and craft breweries, grouped by region, with addresses and websites.
 
