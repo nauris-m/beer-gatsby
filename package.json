@@ -1,7 +1,7 @@
 {
   "name": "beer-gatsby",
   "private": true,
-  "description": "simple Gatsby app",
+  "description": "brewery.lv: a directory of Latvia's small and craft breweries",
   "version": "0.1.0",
   "author": "nauris-m",
   "dependencies": {
@@ -26,13 +26,12 @@
     "node": ">=22 <25"
   },
   "scripts": {
-    "build": "node sammy.js; gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "node sammy.js; npm run serve",
+    "start": "gatsby develop",
+    "build": "gatsby build",
     "serve": "gatsby serve -p ${PORT:-8080}",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "repository": {
     "type": "git",

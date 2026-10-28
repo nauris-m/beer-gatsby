@@ -1,0 +1,125 @@
+.region-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 3rem;
+}
+
+.region-filter button {
+  font-family: var(--font-head);
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.55rem 1.4rem;
+  border: 2px solid var(--gold);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.region-filter button:hover {
+  background: rgba(186, 159, 93, 0.15);
+}
+
+.region-filter button[aria-pressed="true"] {
+  background: var(--gold);
+  color: #fff;
+}
+
+.region-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 1.8rem;
+}
+
+.region-count {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--gold-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.brewery-grid {
+  list-style: none;
+  margin: 0 0 3.5rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.brewery {
+  margin: 0;
+  padding: 1.5rem 1.4rem 1.3rem;
+  border-top: 3px solid var(--gold);
+  border-radius: 2px;
+  background: var(--paper);
+  box-shadow: 0 1px 2px rgba(13, 13, 12, 0.04), 0 8px 24px rgba(13, 13, 12, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.brewery:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 2px 4px rgba(13, 13, 12, 0.05), 0 14px 32px rgba(13, 13, 12, 0.1);
+}
+
+.brewery-name {
+  margin: 0 0 0.15rem;
+  font-size: 1.3rem;
+}
+
+.brewery-meta {
+  margin: 0 0 1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--gold-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.brewery dl {
+  margin: 0;
+  font-size: 0.88rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35rem 0.9rem;
+}
+
+.brewery dt {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  line-height: 1.9;
+}
+
+.brewery dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.brewery dd a {
+  display: block;
+  color: var(--text);
+}
+
+.brewery dd a:hover {
+  color: var(--green);
+}
+
+.source-note {
+  margin: 0;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+}

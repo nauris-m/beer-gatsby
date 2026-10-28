@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `brewery`,
-    description: `beers from regions of LV`,
-    author: `@gatsbyjs`,
+    description: `Directory of Latvia's small and craft breweries, with addresses, phones and websites.`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -18,13 +17,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `brewery`,
+        name: `brewery.lv: Latvian craft breweries`,
+        short_name: `brewery.lv`,
         start_url: `/`,
-        background_color: `#fefefe`,
-        theme_color: `#fefefe`,
+        background_color: `#f6f3ee`,
+        theme_color: `#0d0d0c`,
         display: `minimal-ui`,
-        icon: `src/images/beer-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/beer-icon.png`,
       },
     },
   ],
