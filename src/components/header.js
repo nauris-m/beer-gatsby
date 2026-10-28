@@ -12,9 +12,6 @@ const Header = ({overHero = false}) => (
     <header className={`site-header${overHero ? ` over-hero` : ``}`}>
         <div className="wrap">
             <Brand/>
-            <nav className="site-nav" aria-label="Main">
-                <Link to="/">Breweries</Link>
-            </nav>
         </div>
     </header>
 );

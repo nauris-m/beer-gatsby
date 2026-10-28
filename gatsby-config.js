@@ -23,7 +23,7 @@ module.exports = {
         name: `brewery.lv: Latvian craft breweries`,
         short_name: `brewery.lv`,
         start_url: `/`,
-        background_color: `#f6f3ee`,
+        background_color: `#f6f2ec`,
         theme_color: `#0d0d0c`,
         display: `minimal-ui`,
         icon: `src/images/beer-icon.png`,

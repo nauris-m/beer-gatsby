@@ -13,7 +13,6 @@ import "./layout.css"
 
 const Layout = ({children, hero, title}) => (
     <>
-        <a className="skip-link" href="#main">Skip to content</a>
         <Header overHero={Boolean(hero)}/>
         {hero}
         {title && (
