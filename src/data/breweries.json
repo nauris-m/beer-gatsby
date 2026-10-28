@@ -618,6 +618,18 @@
     "website": "https://lodinaalus.lv"
   },
   {
+    "id": "odu-brewery",
+    "name": "ODU Brewery",
+    "address": "Katlakalns, Ķekavas pagasts, Ķekavas novads",
+    "city": "Katlakalns",
+    "region": "Zemgale",
+    "lat": 56.90858,
+    "lng": 24.15093,
+    "founded": null,
+    "website": "https://www.odubrewery.com/",
+    "contract": true
+  },
+  {
     "id": "rundales-udensdzirnavas",
     "name": "Rundāles ūdensdzirnavas",
     "address": "Pilsrundāle, Rundāles pagasts, Bauskas novads, LV-3921",

@@ -15,6 +15,7 @@ const BreweryCard = ({brewery}) => (
         <p className="brewery-meta">
             {brewery.city}
             {brewery.founded && <> · since {brewery.founded}</>}
+            {brewery.contract && <> · contract brewery</>}
         </p>
         <dl>
             <dt>Address</dt>
